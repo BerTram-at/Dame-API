@@ -1,5 +1,5 @@
 """
-# Schach-API
+# Dame-API
 
 | : Verfügbare Funktionen
 | : Anleitung
