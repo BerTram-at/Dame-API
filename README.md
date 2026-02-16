@@ -10,11 +10,11 @@ Deutsche Dame-API für Python
 
 ## Verfügbare Funktionen
 - **visual_feldname**  
-  Visualisiert die Feldnummer als Feldname (z. B. 11 → A1)
+  Visualisiert die Feldnummer als Feldname
 - **visual_farbe**  
-  Visualisiert die Farbnummer als Farbnamen (10 / -10)
+  Visualisiert die Farbnummer als Farbnamen
 - **visual_farbenkürzel**  
-  Visualisiert die Farbnummer als Farbkürzel (w / s / c)
+  Visualisiert die Farbnummer als Farbkürzel
 - **visual_figur**  
   Visualisiert die Figurnummer als Figurennamen
 - **visual_figurkürzel**  
@@ -85,8 +85,3 @@ Deutsche Dame-API für Python
 - `1` = **Bauer**  
 - `2` = **Dame**
 
-### Hinweise zur Bewegung (intern)
-- `_bauernweg` definiert die Richtungen für normale Züge und Schlagzüge je Farbe. Die Indices sind intern folgendermaßen genutzt:
-  - Index 0: ein diagonales Vorwärtsfeld (rechts)
-  - Index 1: ein diagonales Vorwärtsfeld (links)
-  - Index 2: Prüfflag für die jeweils gegenüberliegende Grundreihe (für Umwandlungen)
