@@ -82,6 +82,8 @@ Technische Details
 """
 from copy import deepcopy
 
+__version__ = "16-Feb-2026 10:00"
+
 def _strer(x: str | int) -> str:
     return str(x)
 
