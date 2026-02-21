@@ -11,9 +11,9 @@
 
 ## Startaufstellung:
   ```
-  x B x B x B x B x B x B x B x
-  B x B x B x B x B x B x B x B
-  x B x B x B x B x B x B x B x
+  B x B x B x B x
+  x B x B x B x B
+  B x B x B x B x
   ```
 x = leer
 
