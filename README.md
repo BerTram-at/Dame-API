@@ -1,6 +1,9 @@
 # Dame-API
 Deutsche Dame-API für Python
 
+**Version: 20-Feb-2026 19:00**
+
+
 ## 📋 Inhaltsverzeichnis
 - [Verfügbare Funktionen](#verfügbare-funktionen)
 - [Anleitung](#anleitung)
