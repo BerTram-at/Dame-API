@@ -36,7 +36,7 @@ Verfügbare Funktionen
 Anleitung
 ---------
 1. **Spielstart:**
-    Zum Spielstart muss 1 Variable lokal angelegt mit der Funktion :class:`neues_spiel` (:class:`kstatus = schach_api.neues_spiel()`).
+    Zum Spielstart muss 1 Variable lokal angelegt mit der Funktion :class:`neues_spiel` (:class:`kstatus = dame_api.neues_spiel()`).
 2. **Spielfeldvisualisierung:**
     :class:`kstatus` ist ein Dictionary das von den Figuren ausgehend, deren besetzte Felder anzeigt, aufgebaut ist, man kann davon immer mit der Funktion :class:`fstatus_func` ein Dictionary herleiten, bei dem das Spielfeld die Referenz ist.
 3. **Bei jedem Zug:**
@@ -82,7 +82,7 @@ Technische Details
 """
 from copy import deepcopy
 
-__version__ = "16-Feb-2026 10:00"
+__version__ = "20-Feb-2026 19:00"
 
 def _strer(x: str | int) -> str:
     return str(x)
